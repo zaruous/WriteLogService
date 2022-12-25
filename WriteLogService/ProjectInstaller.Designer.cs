@@ -40,15 +40,14 @@
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.DelayedAutoStart = true;
             this.serviceInstaller1.DisplayName = "WriteLogService";
             this.serviceInstaller1.ServiceName = "WriteLogService";
             // 
             // ProjectInstaller
             // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
-            this.serviceProcessInstaller1,
-            this.serviceInstaller1});
+            this.serviceInstaller1,
+            this.serviceProcessInstaller1});
 
         }
 

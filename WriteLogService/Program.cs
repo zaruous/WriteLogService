@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Management.Instrumentation;
 using System.ServiceProcess;
 using System.Text;
+using System.Threading;
 
 namespace WriteLogService
 {
@@ -23,7 +25,23 @@ namespace WriteLogService
             ServiceBase.Run(ServicesToRun);
             */
 
-            new WriteLogImpl().run();
+#if DEBUG
+            using (WriteLogImpl instance = new WriteLogImpl())
+            {
+                while(true) {
+                    instance.run();
+                }
+            }
+                
+            #else
+                        ServiceBase[] ServicesToRun;
+                        ServicesToRun = new ServiceBase[]
+                        {
+                            new WriteLogService()
+                        };
+                        ServiceBase.Run(ServicesToRun);
+            #endif
+
         }
     }
 }
