@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WriteLogService" GeneratedClassName="app">
+  <Profiles />
+  <Settings>
+    <Setting Name="queueName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Test Queue</Value>
+    </Setting>
+    <Setting Name="msgEncoding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UTF-16LE</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
