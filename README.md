@@ -16,3 +16,11 @@ ex) "C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe" "WriteLogSer
 이후 서비스에서 실행버튼 클릭
 ![image](https://user-images.githubusercontent.com/115706921/209467682-ca430ed4-f6e3-4114-92b0-538b887b2475.png)
 
+
+
+
+
+
+환경세팅
+1. 큐 추가하기.
+![image](https://user-images.githubusercontent.com/115706921/209467838-29139150-b4d6-429b-b1c2-ae08c475439c.png)
