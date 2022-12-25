@@ -14,7 +14,7 @@ Dim machineName, queueName
 
 
 machineName = "localhost"
-queueName = "Test Queue"
+queueName = "WriteLog"
 
 
 dim sendQueue, receiveQueue, queueInfo

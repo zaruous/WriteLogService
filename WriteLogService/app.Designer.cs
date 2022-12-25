@@ -25,7 +25,7 @@ namespace WriteLogService {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Test Queue")]
+        [global::System.Configuration.DefaultSettingValueAttribute("WriteLog")]
         public string queueName {
             get {
                 return ((string)(this["queueName"]));

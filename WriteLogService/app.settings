@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="queueName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Test Queue</Value>
+      <Value Profile="(Default)">WriteLog</Value>
     </Setting>
     <Setting Name="msgEncoding" Type="System.String" Scope="User">
       <Value Profile="(Default)">UTF-16LE</Value>
