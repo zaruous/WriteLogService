@@ -29,7 +29,7 @@ namespace WriteLogService
             using (WriteLogImpl instance = new WriteLogImpl())
             {
                 while(true) {
-                    instance.run();
+                    instance.Receive();
                 }
             }
                 
